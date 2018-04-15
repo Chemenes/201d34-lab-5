@@ -8,11 +8,18 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
+ problem5
+// function sum(a, b) { //eslint-disable-line
+//   var theAnswer = a + b;
+//   return [theAnswer, 'The sum of ' + a + ' and ' + b + ' is ' + theAnswer + '.'];
+// }
+
 problem4
 function sum(a, b) { //eslint-disable-line
   var theAnswer = a + b;
   return [theAnswer, 'The sum of ' + a + ' and ' + b + ' is ' + theAnswer + '.'];
 }
+ master
 // console.log("The sum of 4 and 7 is 11.")
 // console.log(sum(4,7)[1])
 // Here is the test for sum(); uncomment it to run it
@@ -38,16 +45,16 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-function multiply(a, b) { //eslint-disable-line
-  var theProduct = a * b;
-  var theMessage = 'The product of ' 
-  + a + ' and ' + b + ' is ' + theProduct + '.';
-  return [theProduct, theMessage];
-}
+// function multiply(a, b) { //eslint-disable-line
+//   var theProduct = a * b;
+//   var theMessage = 'The product of ' 
+//   + a + ' and ' + b + ' is ' + theProduct + '.';
+//   return [theProduct, theMessage];
+// }
 // console.log("The product of 5 and 9 is 45")
  problem4
 // console.log(multiply(5,9))
-=======
+
 console.log(multiply(5,9))
  master
 
@@ -79,7 +86,7 @@ Test this function by hand in the console to get it working, and when you think 
 //   var returnOne = a + ' and ' + b + ' and ' + c + ' sum to ' + threeNumber + '.';
 //   var returnTwo = 'The product of' + a + ' and ' + b + ' and ' + c + ' is ' + multiplyNum + '.';
  
-//   // return [threeNumber, multiplyNum, oneSum, twoSum];
+//   return [threeNumber, multiplyNum, oneSum, twoSum];
 // }
 
 // // // Here is the test for sumAndMultiply(); uncomment it to run it
@@ -99,13 +106,13 @@ IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
-var testArray = [2, 3, 4]; //eslint-disable-line
+// var testArray = [2, 3, 4]; //eslint-disable-line
 
-function sumArray(sumArr) { //eslint-disable-line
-var theSum = sum(sumArr[0], sum(sumArr[1], sumArr[2]) [0]) [0];
-var message = sumArr + ' was passed in as an array of numbers, and '  + theSum + ' is their sum' + '.';
-return [theSum, message];
-}
+// function sumArray(sumArr) { //eslint-disable-line
+// var theSum = sum(sumArr[0], sum(sumArr[1], sumArr[2]) [0]) [0];
+// var message = sumArr + ' was passed in as an array of numbers, and '  + theSum + ' is their sum' + '.';
+// return [theSum, message];
+// }
 
 // Here is the test for sumArray(); uncomment it to run it
 
@@ -159,11 +166,11 @@ This function should be dynamic, accepting an array of any length.
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyAnyArray() function and see if the test passes.*/
 
 // Write your code here
-var testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
+// var testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
 
-function multiplyAnyArray(dynamicArray) { //eslint-disable-line
+// function multiplyAnyArray(dynamicArray) { //eslint-disable-line
 
-}
+// }
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyAnyArray(testDynamicArray);
