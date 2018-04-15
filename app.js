@@ -28,6 +28,7 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
+ problem3
 // function multiply(a, b) { //eslint-disable-line
 //   var theProduct = a * b;
 //   var theMessage = 'The product of ' 
@@ -37,8 +38,18 @@ Test this function by hand in the console to get it working, and when you think 
 // console.log("The product of 5 and 9 is 45")
 // console.log(multiply(5,9))
 
+function multiply(a, b) { //eslint-disable-line
+  var theProduct = a * b;
+  var theMessage = 'The product of ' 
+  + a + ' and ' + b + ' is ' + theProduct + '.';
+  return [theProduct, theMessage];
+}
+// console.log("The product of 5 and 9 is 45")
+console.log(multiply(5,9))
+ master
+
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
